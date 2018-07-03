@@ -1,5 +1,5 @@
 # Webpack boilerplate
-> Webpack boilerplate with [Babel](https://babeljs.io/), [SASS](https://sass-lang.com/), [ESLint](https://eslint.org/) and [Prettier](https://prettier.io/)
+> Webpack boilerplate with [Babel](https://babeljs.io/), [SASS](https://sass-lang.com/)
 
 * Write your JavaScript code in `index.js`
 * Write your HTML in `index.ejs`
@@ -38,6 +38,10 @@ To create a production ready build that is minified and properly packed and will
 ```bash
 npm run build
 ```
+
+### Deploy 
+
+If git remote repo exists you can add "homepage": "username.github.io/reponame" to package.json to deploy automatically on gh-pages branch. gh-pages branch is autocreated if not already existing.
 
 ## ESLint integration 
 
