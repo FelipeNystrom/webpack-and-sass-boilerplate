@@ -5,9 +5,9 @@
   "author": "Jesper Orb <jesperorb@gmail.com> (https://jesperorb.com/)",
   "main": "src/scripts/index.js",
   "scripts": {
-    "dev": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js --mode development",
-    "build": "./node_modules/webpack/bin/webpack.js -p --progress --config webpack.config.js --mode production",
-    "deploy": "./node_modules/gh-pages/bin/gh-pages -d dist"
+    "dev": "npx webpack-dev-server --mode development",
+    "build": "npx webpack -p --progress --config webpack.config.js --mode production",
+    "deploy": "npx gh-pages -d dist"
   },
   "keywords": [
     "webpack",
